@@ -12,6 +12,9 @@
       crossorigin="anonymous"
     />
 
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="style.css" />
+
     <title>my first bootsrap</title>
   </head>
   <body>
@@ -19,7 +22,7 @@
     <div>
       <nav class="navbar bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
+          <a class="navbar-brand">Aryani Puspitasari</a>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
@@ -36,47 +39,123 @@
     </div>
     <!-- NAVBAR ENDS -->
 
+    <!-- CAROUSEL STARTS -->
+
+    <div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/mountain.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ocean.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/tree.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/tree.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- CAROUSEL ENDS -->
+
     <!-- THIS IS MY PRODUCT -->
-    <div class="container mt-5">
+    <div class="container mt-2">
       <div class="row">
-        <div class="card col">
+        <div class="card col-sm-6">
           <h5 class="card-header">Project</h5>
           <div class="card-body">
             <h5 class="card-title">Mountain</h5>
-            <img src="./images/mountain.jpg" class="img-thumbnail" alt="mountain">
+            <img
+              src="./images/mountain.jpg"
+              class="img-thumbnail"
+              alt="mountain"
+            />
             <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quis facere, commodi aut nam magni dolorum natus distinctio itaque voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo, itaque facilis culpa quos sed aperiam ad vitae laudantium commodi inventore. Obcaecati, pariatur. In, est quasi.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              quis facere, commodi aut nam magni dolorum natus distinctio itaque
+              voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore
+              voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo,
+              itaque facilis culpa quos sed aperiam ad vitae laudantium commodi
+              inventore. Obcaecati, pariatur. In, est quasi.
             </p>
             <a href="#" class="btn btn-primary">click to have a look</a>
           </div>
         </div>
 
-        <div class="card col">
+        <div class="card col-sm-6">
           <h5 class="card-header">Project</h5>
           <div class="card-body">
             <h5 class="card-title">Ocean</h5>
-            <img src="./images/./ocean.png" class="img-thumbnail" alt="ocean">
+            <img src="./images/./ocean.png" class="img-thumbnail" alt="ocean" />
             <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quis facere, commodi aut nam magni dolorum natus distinctio itaque voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo, itaque facilis culpa quos sed aperiam ad vitae laudantium commodi inventore. Obcaecati, pariatur. In, est quasi.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              quis facere, commodi aut nam magni dolorum natus distinctio itaque
+              voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore
+              voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo,
+              itaque facilis culpa quos sed aperiam ad vitae laudantium commodi
+              inventore. Obcaecati, pariatur. In, est quasi.
             </p>
             <a href="#" class="btn btn-primary">click to have a look</a>
           </div>
         </div>
 
-        <div class="card col">
+        <div class="card col-sm-6">
           <h5 class="card-header">Plant</h5>
           <div class="card-body">
-            <h5 class="card-title">Anime World</h5>
-            <img src="./images/./tree.jpg" class="img-thumbnail" alt="tree">
+            <h5 class="card-title">Tree World</h5>
+            <img src="./images/./tree.jpg" class="img-thumbnail" alt="tree" />
             <p class="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quis facere, commodi aut nam magni dolorum natus distinctio itaque voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo, itaque facilis culpa quos sed aperiam ad vitae laudantium commodi inventore. Obcaecati, pariatur. In, est quasi.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              quis facere, commodi aut nam magni dolorum natus distinctio itaque
+              voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore
+              voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo,
+              itaque facilis culpa quos sed aperiam ad vitae laudantium commodi
+              inventore. Obcaecati, pariatur. In, est quasi.
+            </p>
+            <a href="#" class="btn btn-primary">click to have a look</a>
+          </div>
+        </div>
+
+        <div class="card col-sm-6">
+          <h5 class="card-header">Plant2</h5>
+          <div class="card-body">
+            <h5 class="card-title">Tree world</h5>
+            <img src="./images/./tree.jpg" class="img-thumbnail" alt="tree" />
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              quis facere, commodi aut nam magni dolorum natus distinctio itaque
+              voluptatum ducimus! Nesciunt obcaecati quibusdam porro tempore
+              voluptatem nulla modi repudiandae ipsam recusandae voluptas nemo,
+              itaque facilis culpa quos sed aperiam ad vitae laudantium commodi
+              inventore. Obcaecati, pariatur. In, est quasi.
             </p>
             <a href="#" class="btn btn-primary">click to have a look</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- END -->
+    <!-- PRODUCT ENDS -->
 
     <!-- BUTTON USE PRIMARY COLOR -->
     <!-- <button class="btn btn-primary">hallo bootsrap</button> -->
